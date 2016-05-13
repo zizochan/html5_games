@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js"></script>
+
+<title>CarryIt</title>
+
+</head>
+
+<body onload="init()">
+<h1 id="game-label">Carry It Game</h1>
+
+<canvas id="canvas"></canvas>
+<br />
+
+<table>
+        <tr>
+                <td></td>
+                <td><button class="key" onclick="u()">U</button></td>
+                <td></td>
+        </tr>
+        <tr>
+                <td><button class="key" onclick="l()">L</button></td>
+                <td></td>
+                <td><button class="key" onclick="r()">R</button></td>
+        </tr>
+        <tr>
+                <td></td>
+                <td><button class="key" onclick="d()">D</button></td>
+                <td></td>
+        </tr>
+</table>
+<br />
+<button class="key" onclick="reset()">RESET</button>
+
+<img id="imgGoal"    src="imgGoal.png" />
+<img id="imgLuggage" src="imgLuggage.png" />
+<img id="imgWall"    src="imgWall.png" />
+<img id="imgWorker"  src="imgWorker.png" />
+</body>
+
+</html>

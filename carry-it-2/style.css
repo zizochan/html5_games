@@ -1,0 +1,10 @@
+canvas {
+        background-color: black;
+}
+img {
+        display: none;
+}
+.key {
+        background-color: #b0c4de;
+        font-size: 20px;
+}
