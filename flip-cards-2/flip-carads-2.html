@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<link rel="stylesheet" type="text/css" href="flip-carads-2.css">
+<script src="flip-carads-2.js"></script>
+
+<title>flip cards 2</title>
+
+</head>
+
+<body onload="init()">
+<h1>flip cards 2</h1>
+<table id="table"></table>
+<p>
+time: <span id="time"></span>
+</p>
+<p>
+x-size: <input id="x-size" type="number" min="2" max="10" />&nbsp;
+y-size: <input id="y-size" type="number" min="2" max="10" /><br />
+同じカードは<input id="same-card-number" type="number" min="2" max="10" />枚ずつ入っています<br />
+<button onclick="refresh()">refresh</button>
+</p>
+
+</body>
+
+</html>
