@@ -1,0 +1,22 @@
+table {
+        border: 1px solid black;
+        background-color: #f5deb3;
+}
+#time-p {
+        font-size: large;
+}
+.tile {
+        width: 70px;
+        height: 70px;
+        border: 1px solid blue;
+        border-radius: 10px;
+        box-shadow: rgb(128, 128, 128, 128) 10px 10px;
+        text-align: center;
+        vertical-align: middle;
+        background-color: white;
+        font-size: 30px;
+}
+.empty {
+        width: 70px;
+        height: 70px;
+}

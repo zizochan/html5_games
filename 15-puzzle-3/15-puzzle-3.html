@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<link rel="stylesheet" type="text/css" href="15-puzzle-3.css">
+<script src="15-puzzle-3.js"></script>
+<title id="title"></title>
+</head>
+
+<body onload="init()">
+<table id="table"></table>
+<h1 id="game-title-h1"></h1>
+<p>
+上下左右だけでなく斜めにも動かせます
+</p>
+<p id="time-p">
+time: <span id="time"></span>
+</p>
+<p>
+x-size: <input id="x-size" type="number" value="3" min="2" max="100"><br />
+y-size: <input id="y-size" type="number" value="3" min="2" max="100"><br />
+<button onclick="refresh()">refresh</button>
+</p>
+</body>
+
+</html>
