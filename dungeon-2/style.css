@@ -1,0 +1,10 @@
+#canvas {
+        width: 900px; height: 600px;
+        touch-action: none;
+        display: none;
+}
+#img-start {
+        position: absolute;
+        left: 200px;
+        top: 200px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<title>dungeon</title>
+<script>
+"use strict;"
+</script>
+</head>
+
+<body onload="init()">
+<canvas id="canvas" width="900" height="600"></canvas>
+<audio src="Emergency.mp3" id="bgm" loop="loop"></audio>
+
+<h1 id="game-title">DUNGEON GAME</h1>
+<p id="game-description">
+        Aim the goal to collect all the keys!<br />
+</p>
+<p id="config-menu">
+        <span id="difficulty-radio"></span><br />
+        <input id="play-bgm" type="checkbox" /><label for="play-bgm">BGM</label><br />
+        <button onclick="go()">START</button>
+</p>
+</body>
+
+</html>
